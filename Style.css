@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Fira+Sans:wght@200&family=Oxygen:wght@300&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    max-height: 72px;
+    min-height: 60px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size: 2rem;
+}
+.right-nav{
+    display: flex;
+}
+.right-nav li{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: .6px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0 30px;
+    background: transparent;
+}
+.right-nav li a{
+    cursor: pointer;
+}
+.right-nav li a:hover{
+    color: #f23e36;
+}
+.left-nav img{
+    height: 63px;
+    width: 100%;
+}
+.left-nav button{
+    padding: 9px 16px;
+    background-color: #f23e36;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    margin-left: 1.5rem;
+    cursor: pointer;
+    border: 1px solid #f23e36;
+}
+.right-nav button{
+    padding: 0px 12px;
+    height: 38px;
+    background: linear-gradient(270deg,#ff5757,#d02035);
+    border-radius: 4px;
+    border-style: none; 
+    box-shadow: none;
+    color: white;
+    font-weight: 600;
+}
